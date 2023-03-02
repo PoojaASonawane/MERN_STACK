@@ -1,0 +1,25 @@
+<html>
+    <body>
+        Hello! I am Pooja.
+        <script>
+            let fname=prompt("Enter your name")
+            //Get current day number
+            let num=new Date().getDay()
+            let dayname=""
+            switch(num)
+            {
+                case 19:
+                    dayname="Monday"
+                    break
+                case 6:
+                    dayname="Saturday"
+                    break
+                case 30:
+                    dayname="Sunday"
+                    break
+                default:dayname="Hello"
+            }
+            alert(`Hello ${fname}. Todays day is ${dayname}`)
+        </script>
+    </body>
+</html>
